@@ -10,7 +10,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-gray-900/95 backdrop-blur-md shadow-2xl sticky top-0 z-50 border-b border-white/10">
+    <header className="bg-gray-900/95 backdrop-blur-md shadow-2xl sticky top-0 z-50 border-b border-gray-300/20">
       <nav className="container mx-auto px-5 py-4 flex justify-between items-center">
         <a href="#" className="text-2xl font-bold text-white font-inter">
           Strive Consulting
@@ -53,7 +53,7 @@ const Header = () => {
 
         <Button 
           onClick={() => scrollToSection('contact')}
-          className="bg-gradient-to-r from-white to-gray-200 text-gray-900 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 font-bold px-6 py-2 rounded-full font-inter"
+          className="bg-gradient-to-r from-gray-200 to-gray-300 text-gray-900 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 font-bold px-6 py-2 rounded-full font-inter hover:from-gray-300 hover:to-gray-400"
         >
           Get Started
         </Button>

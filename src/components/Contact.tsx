@@ -25,7 +25,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="bg-gradient-to-br from-white to-gray-200 text-gray-900 p-12 rounded-3xl text-center my-12">
+    <section id="contact" className="bg-gradient-to-br from-gray-100 to-gray-200 text-gray-900 p-12 rounded-3xl text-center my-12">
       <h2 className="text-5xl font-semibold mb-6 text-gray-900 font-inter">
         Ready to Start Your Journey?
       </h2>
@@ -42,7 +42,7 @@ const Contact = () => {
           value={formData.name}
           onChange={handleChange}
           required
-          className="p-4 border border-gray-300 rounded-xl font-inter bg-white/90 text-gray-900 focus:border-gray-600 focus:ring-2 focus:ring-gray-600/20"
+          className="p-4 border border-gray-400 rounded-xl font-inter bg-white/90 text-gray-900 focus:border-gray-600 focus:ring-2 focus:ring-gray-600/20"
         />
         
         <Input
@@ -52,7 +52,7 @@ const Contact = () => {
           value={formData.email}
           onChange={handleChange}
           required
-          className="p-4 border border-gray-300 rounded-xl font-inter bg-white/90 text-gray-900 focus:border-gray-600 focus:ring-2 focus:ring-gray-600/20"
+          className="p-4 border border-gray-400 rounded-xl font-inter bg-white/90 text-gray-900 focus:border-gray-600 focus:ring-2 focus:ring-gray-600/20"
         />
         
         <Input
@@ -61,7 +61,7 @@ const Contact = () => {
           placeholder="Your Phone Number"
           value={formData.phone}
           onChange={handleChange}
-          className="p-4 border border-gray-300 rounded-xl font-inter bg-white/90 text-gray-900 focus:border-gray-600 focus:ring-2 focus:ring-gray-600/20"
+          className="p-4 border border-gray-400 rounded-xl font-inter bg-white/90 text-gray-900 focus:border-gray-600 focus:ring-2 focus:ring-gray-600/20"
         />
         
         <textarea
@@ -70,12 +70,12 @@ const Contact = () => {
           rows={4}
           value={formData.message}
           onChange={handleChange}
-          className="p-4 border border-gray-300 rounded-xl font-inter bg-white/90 text-gray-900 focus:border-gray-600 focus:ring-2 focus:ring-gray-600/20 focus:outline-none resize-none"
+          className="p-4 border border-gray-400 rounded-xl font-inter bg-white/90 text-gray-900 focus:border-gray-600 focus:ring-2 focus:ring-gray-600/20 focus:outline-none resize-none"
         />
         
         <Button 
           type="submit"
-          className="bg-gray-900 text-white p-4 rounded-full font-bold text-lg hover:-translate-y-0.5 transition-all duration-300 font-inter"
+          className="bg-gray-900 text-white p-4 rounded-full font-bold text-lg hover:-translate-y-0.5 transition-all duration-300 font-inter hover:bg-gray-800"
         >
           Schedule Free Consultation
         </Button>
