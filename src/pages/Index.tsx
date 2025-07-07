@@ -9,13 +9,13 @@ import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 to-gray-800 font-inter">
+    <div className="min-h-screen bg-gradient-to-br from-black to-gray-900 font-inter">
       <Header />
       
       <div className="container mx-auto px-4">
         <Hero />
         
-        <main className="bg-gray-800/95 rounded-3xl my-8 p-12 shadow-2xl border border-white/10">
+        <main className="bg-gray-900/95 rounded-3xl my-8 p-12 shadow-2xl border border-gray-600/20">
           <section id="about" className="mb-12">
             <h2 className="text-5xl font-semibold text-center mb-12 text-white tracking-tight font-inter">
               Crafting Your Success Story

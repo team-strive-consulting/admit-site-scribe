@@ -11,7 +11,7 @@ const Stats = () => {
       {stats.map((stat, index) => (
         <div 
           key={index}
-          className="bg-gradient-to-br from-gray-700 to-gray-800 text-white p-8 rounded-2xl text-center transform hover:-translate-y-2 transition-all duration-300 border border-white/10 hover:shadow-xl"
+          className="bg-gradient-to-br from-gray-800 to-gray-900 text-white p-8 rounded-2xl text-center transform hover:-translate-y-2 transition-all duration-300 border border-gray-600/20 hover:shadow-xl"
         >
           <div className="text-6xl font-bold mb-2 tracking-tight font-inter">
             {stat.number}

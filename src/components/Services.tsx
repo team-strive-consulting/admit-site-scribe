@@ -21,7 +21,7 @@ const Services = () => {
         {services.map((service, index) => (
           <div 
             key={index}
-            className="bg-gray-700 p-8 rounded-2xl border-l-4 border-gray-300 border border-gray-300/20 hover:-translate-y-1 hover:shadow-xl transition-all duration-300"
+            className="bg-gray-800 p-8 rounded-2xl border-l-4 border-gray-300 border border-gray-600/20 hover:-translate-y-1 hover:shadow-xl transition-all duration-300"
           >
             <h3 className="text-2xl font-semibold mb-4 text-white tracking-tight font-inter">
               {service.title}

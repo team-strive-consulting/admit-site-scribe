@@ -10,9 +10,9 @@ const Hero = () => {
   };
 
   return (
-    <section className="bg-gradient-to-br from-gray-800/95 to-gray-900/90 backdrop-blur-xl rounded-3xl mx-4 my-8 p-16 text-center text-white shadow-2xl border border-gray-300/20">
+    <section className="bg-gradient-to-br from-gray-900/95 to-black/90 backdrop-blur-xl rounded-3xl mx-4 my-8 p-16 text-center text-white shadow-2xl border border-gray-500/20">
       <div className="mb-8">
-        <div className="w-full max-w-md mx-auto h-64 rounded-2xl shadow-xl border border-gray-300/20 flex items-center justify-center overflow-hidden">
+        <div className="w-full max-w-md mx-auto h-64 rounded-2xl shadow-xl border border-gray-500/20 flex items-center justify-center overflow-hidden bg-gray-800">
           <img 
             src="/lovable-uploads/ee746fc2-e514-4a30-87f3-6ebad7515131.png" 
             alt="Strive Consulting Logo" 
@@ -31,7 +31,7 @@ const Hero = () => {
       
       <Button 
         onClick={scrollToContact}
-        className="bg-gradient-to-r from-gray-200 to-gray-300 text-gray-900 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 font-bold px-8 py-3 rounded-full text-lg font-inter hover:from-gray-300 hover:to-gray-400"
+        className="bg-gradient-to-r from-gray-200 to-white text-black hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 font-bold px-8 py-3 rounded-full text-lg font-inter hover:from-gray-300 hover:to-gray-200"
       >
         Schedule Consultation
       </Button>
